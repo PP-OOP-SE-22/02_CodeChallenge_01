@@ -20,25 +20,35 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 
 /************ Variante 1 *************/
 
-// Deklaration
-let zifferA, zifferB
-let ZahlA, ZahlB
-let summe
+// // Deklaration
+// let zifferA, zifferB
+// let ZahlA, ZahlB
+// let summe
 
-ziffer1 = prompt("Zahl 1:");
-ziffer2 = prompt("Zahl 2:");
-console.log(typeof ziffer1);
-console.log(typeof ziffer2);
+// ziffer1 = prompt("Zahl 1:");
+// ziffer2 = prompt("Zahl 2:");
+// // console.log(typeof ziffer1);
+// // console.log(typeof ziffer2);
 
-// Eingabe - Wertzuweisung :: Ziffern
-ZahlA = parseInt(ziffer1);
-ZahlB = parseInt(ziffer2);
-console.log(typeof ZahlA);
-console.log(typeof ZahlB);
+// // Eingabe - Wertzuweisung :: Ziffern
+// ZahlA = parseInt(ziffer1);
+// ZahlB = parseInt(ziffer2);
+// // console.log(typeof ZahlA);
+// // console.log(typeof ZahlB);
 
 
-// Berechnung :: Summe / Addition
-summe = ZahlA + ZahlB;
+// // Berechnung :: Summe / Addition
+// summe = ZahlA + ZahlB;
 
-// Ausgabe
-console.log("Die Summe der Zahlen ist: " + summe);
+// // Ausgabe
+// console.log("Die Summe der Zahlen ist: " + summe);
+
+
+console.log
+(
+    "Die Summe ist: " +
+    (
+        parseFloat(prompt("Bitte Zahl 1 eingeben")) +
+        parseFloat(prompt("Bitte Zahl 2 eingeben"))
+    )
+);
