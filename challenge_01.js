@@ -9,6 +9,8 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
+// Ideale Lösung
+
 // let ZahlA = parseInt(prompt("erste Zahl:"));
 // let ZahlB = parseInt(prompt("zweite Zahl:"));
 // let summe = ZahlA + ZahlB
